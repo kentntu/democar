@@ -17,6 +17,11 @@ module.exports = {
     path: `${OUT_PATH}`,
     filename: '[name].bundle.js'
   },
+  devServer: {
+    contentBase: OUT_PATH,
+    compress: true,
+    port: 9000
+  },
   module: {
     rules: [
       {

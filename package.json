@@ -42,8 +42,13 @@
     "worker-loader": "^0.8.1"
   },
   "scripts": {
-    "build": "webpack --watch"
+    "build": "webpack --watch",
+    "dev": "webpack-dev-server --mode development --open"
   },
   "author": "hien.tran",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "d3": "^5.12.0",
+    "webpack-dev-server": "^3.8.0"
+  }
 }

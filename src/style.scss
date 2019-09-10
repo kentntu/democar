@@ -12,6 +12,25 @@ body{
   justify-content: center;
   // background-color: #b9b9b9;
 
+  svg{
+    .bodyHover, .wheelHover{
+      opacity: 0.5;
+      cursor: pointer;
+    }
+  }
+  
+  .details{
+    width: 100%;
+    min-height: 100px;
+    display: flex;
+    flex-direction: column;
+    min-width: 500px;
+
+    .row-item{
+      display: flex;
+      text-align: left;
+    }
+  }
   .wraper{
     width: 100%;
     height: 100%;
@@ -71,7 +90,7 @@ body{
           width: 100%;
           background-color: transparent;
           font-size: 13px;
-          margin-top: 10px;
+          text-align: left;
 
           th, td {
             border-right: 1px solid #9b9d9f;
@@ -89,6 +108,11 @@ body{
             color: #e0e0e0;
             background: #656565;
             padding: 4px;
+
+            a{
+              text-decoration: none;
+              color: #00c8ff;
+            }
           }
         }
       }
