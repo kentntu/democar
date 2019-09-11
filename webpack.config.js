@@ -11,7 +11,7 @@ const reScript = /\.(js|jsx)?$/;
 const reStyle = /\.(css|less|scss|sss)$/;
 const reImage = /\.(bmp|gif|jpe?g|png|svg)$/;
 
-module.exports = {
+const config = {
   entry: `${SRC_PATH}/index.js`,
   output: {
     path: `${OUT_PATH}`,
@@ -69,4 +69,18 @@ module.exports = {
   resolve: {
     extensions: ['.ts', '.tsx', '.js'],
   },
+};
+
+
+module.exports = (env, argv) => {
+
+  if (argv.mode === 'development') {
+    config.devtool = 'source-map';
+  }
+
+  if (argv.mode === 'production') {
+    config.devtool = 'inline-cheap-module-source-map';
+  }
+
+  return config;
 };

@@ -42,7 +42,7 @@
     "worker-loader": "^0.8.1"
   },
   "scripts": {
-    "build": "webpack --watch",
+    "build": "webpack --mode production",
     "dev": "webpack-dev-server --mode development --open"
   },
   "author": "hien.tran",
