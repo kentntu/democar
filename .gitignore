@@ -1,0 +1,6 @@
+dist/*bundle*
+dist/index.html
+.idea/*
+node_modules/*
+.dm
+.history
