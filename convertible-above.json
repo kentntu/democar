@@ -1,0 +1,80 @@
+{
+  "id": "convertible_above",
+  "label": "Top Down",
+  "children": [
+    {
+      "id": "front_left_indicator",
+      "label": "Front Left Indicator"
+    },
+    {
+      "id": "front_right_indicator",
+      "label": "Front Right Indicator"
+    },
+    {
+      "id": "hood",
+      "label": "Hood",
+      "children": [
+        {
+          "id": "battery",
+          "label": "Battery"
+        },
+        {
+          "id": "engine",
+          "label": "Engine"
+        },
+        {
+          "id": "electronic_control_unit",
+          "label": "Electronic Control Unit"
+        },
+        {
+          "id": "electronic_control_unit",
+          "label": "Electronic Control Unit"
+        },
+        {
+          "id": "coolings",
+          "label": "Coolings"
+        }
+      ]
+    },
+    {
+      "id": "front_logo",
+      "label": "Front Logo"
+    },
+    {
+      "id": "left_mirror",
+      "label": "Left Mirror"
+    },
+    {
+      "id": "right_mirror",
+      "label": "Right Mirror"
+    },
+    {
+      "id": "windshield",
+      "label": "Windshield"
+    },
+    {
+      "id": "steering_wheel",
+      "label": "Steering Wheel"
+    },
+    {
+      "id": "left_seat",
+      "label": "Left Seat"
+    },
+    {
+      "id": "right_seat",
+      "label": "Right Seat"
+    },
+    {
+      "id": "gearbox",
+      "label": "Gearbox"
+    },
+    {
+      "id": "left_brake_light",
+      "label": "Left Brake Light"
+    },
+    {
+      "id": "right_brake_light",
+      "label": "Right Brake Light"
+    }
+  ]
+}
