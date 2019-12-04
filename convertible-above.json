@@ -16,19 +16,23 @@
       "children": [
         {
           "id": "battery",
-          "label": "Battery"
+          "label": "Battery",
+          "icon": "https://raw.githubusercontent.com/kentntu/democar/master/battery.png"
         },
         {
           "id": "engine",
-          "label": "Engine"
+          "label": "Engine",
+          "icon": "https://raw.githubusercontent.com/kentntu/democar/master/engine.png"
         },
         {
           "id": "electronic_control_unit",
-          "label": "Electronic Control Unit"
+          "label": "Electronic Control Unit",
+          "icon": "https://raw.githubusercontent.com/kentntu/democar/master/control-unit.png"
         },
         {
           "id": "coolings",
-          "label": "Coolings"
+          "label": "Coolings",
+          "icon": "https://raw.githubusercontent.com/kentntu/democar/master/fans.png"
         }
       ]
     },
