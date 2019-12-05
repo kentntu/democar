@@ -61,7 +61,8 @@
     },
     {
       "id": "windshield",
-      "label": "Windshield"
+      "label": "Windshield",
+      "icon": "https://raw.githubusercontent.com/kentntu/democar/master/frost.png"
     },
     {
       "id": "steering_wheel",
