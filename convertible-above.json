@@ -13,27 +13,22 @@
     {
       "id": "hood",
       "label": "Hood",
-      "icon": "https://raw.githubusercontent.com/kentntu/democar/master/hood.png",
       "children": [
         {
           "id": "battery",
-          "label": "Battery",
-          "icon" : "https://raw.githubusercontent.com/kentntu/democar/master/battery.png"
+          "label": "Battery"
         },
         {
           "id": "engine",
-          "label": "Engine",
-          "icon": "https://raw.githubusercontent.com/kentntu/democar/master/engine.png"
+          "label": "Engine"
         },
         {
           "id": "electronic_control_unit",
-          "label": "Electronic Control Unit",
-          "icon": "https://raw.githubusercontent.com/kentntu/democar/master/control-unit.png"
+          "label": "Electronic Control Unit"
         },
         {
           "id": "coolings",
-          "label": "Coolings",
-          "icon": "https://raw.githubusercontent.com/kentntu/democar/master/fans.png"
+          "label": "Coolings"
         },
         {
           "id": "tet_item",
@@ -65,8 +60,7 @@
     },
     {
       "id": "windshield",
-      "label": "Windshield",
-      "icon": "https://raw.githubusercontent.com/kentntu/democar/master/frost.png"
+      "label": "Windshield"
     },
     {
       "id": "steering_wheel",
@@ -74,13 +68,11 @@
     },
     {
       "id": "left_seat",
-      "label": "Left Seat",
-      "icon": "https://raw.githubusercontent.com/kentntu/democar/master/seat-belt.png"
+      "label": "Left Seat"
     },
     {
       "id": "right_seat",
-      "label": "Right Seat",
-      "icon": "https://raw.githubusercontent.com/kentntu/democar/master/seat-belt.png"
+      "label": "Right Seat"
     },
     {
       "id": "gearbox",
