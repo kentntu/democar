@@ -70,11 +70,13 @@
     },
     {
       "id": "left_seat",
-      "label": "Left Seat"
+      "label": "Left Seat",
+      "icon": "https://raw.githubusercontent.com/kentntu/democar/master/seat-belt.png"
     },
     {
       "id": "right_seat",
-      "label": "Right Seat"
+      "label": "Right Seat",
+      "icon": "https://raw.githubusercontent.com/kentntu/democar/master/seat-belt.png"
     },
     {
       "id": "gearbox",
