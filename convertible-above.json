@@ -18,17 +18,7 @@
         {
           "id": "battery",
           "label": "Battery",
-          "icon" : "https://raw.githubusercontent.com/kentntu/democar/master/battery.png",
-           "children": [
-             {
-              "id": "sub_1",
-              "label": "Sub 1 test"
-             },
-              {
-              "id": "sub_2",
-              "label": "Sub 2 test"
-             }
-           ]
+          "icon" : "https://raw.githubusercontent.com/kentntu/democar/master/battery.png"
         },
         {
           "id": "engine",
@@ -44,6 +34,20 @@
           "id": "coolings",
           "label": "Coolings",
           "icon": "https://raw.githubusercontent.com/kentntu/democar/master/fans.png"
+        },
+        {
+          "id": "tet_item",
+          "label": "Test Item",
+          "children": [
+            {
+              "id": "sub_item_1",
+              "label" : "Sub Item 1"
+            },
+            {
+              "id": "sub_item_2",
+              "label" : "Sub Item 2"
+            }
+          ]
         }
       ]
     },
