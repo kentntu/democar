@@ -18,7 +18,7 @@
         {
           "id": "battery",
           "label": "Battery",
-          "icon": "https://raw.githubusercontent.com/kentntu/democar/master/battery.png",
+          "icon" : "https://raw.githubusercontent.com/kentntu/democar/master/battery.png",
            "children": [
              {
               "id": "sub_1",
