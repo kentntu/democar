@@ -41,7 +41,7 @@
           "children": [
             {
               "id": "sub_item_1",
-              "label" : "Sub Item 1"
+              "label": "Sub Item 1"
             },
             {
               "id": "sub_item_2",
