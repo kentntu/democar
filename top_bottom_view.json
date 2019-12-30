@@ -1,0 +1,62 @@
+{
+  "id": "top_bottom_view",
+  "label": "Top Bottom View",
+  "children": [
+    {
+      "id": "front_left_indicator",
+      "label": "Front Left Indicator"
+    },
+    {
+      "id": "front_right_indicator",
+      "label": "Front Right Indicator"
+    },
+    {
+      "id": "hood",
+      "label": "Hood",
+      "children": [
+        {
+          "id": "battery",
+          "label": "Battery"
+        },
+        {
+          "id": "engine",
+          "label": "Engine"
+        },
+        {
+          "id": "electronic_control_unit",
+          "label": "Electronic Control Unit"
+        },
+        {
+          "id": "coolings",
+          "label": "Coolings"
+        },
+        {
+          "id": "tet_item",
+          "label": "Test Item",
+          "children": [
+            {
+              "id": "sub_item_1",
+              "label": "Sub Item 1"
+            },
+            {
+              "id": "sub_item_2",
+              "label": "Sub Item 2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "left_mirror",
+      "label": "Left Mirror"
+    },
+    {
+      "id": "right_mirror",
+      "label": "Right Mirror"
+    },
+    {
+      "id": "windshield",
+      "label": "Windshield"
+    }
+  ]
+}
